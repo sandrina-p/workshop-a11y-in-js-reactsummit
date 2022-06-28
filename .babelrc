@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "env"
+  ],
+  "plugins": [
+    [
+      "transform-react-jsx",
+      {
+        "pragma": "React.createElement"
+      }
+    ],
+    "babel-plugin-styled-components"
+  ]
+}
